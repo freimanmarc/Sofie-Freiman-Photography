@@ -17,3 +17,16 @@ button{
 margin-right: auto;
 
 }
+
+#sofie{
+  width: inherit;
+}
+
+.contact-grid{
+  text-align: center;
+  justify-content: center;
+  width: inherit;
+  height: 550px;
+  color: black;
+  margin-bottom: 20px;
+}
