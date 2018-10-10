@@ -23,26 +23,10 @@ class Contact extends Component{
               <List>
                 <ListItem>
                   <ListItemContent style={{fontSize: '25px', fontFamily: 'Anton'}}>
-                    <i className="fa fa-phone-square" aria-hidden="true"/> <br />
-                    +521 (55)5506-1772
-                  </ListItemContent>
-                </ListItem>
-
-                <ListItem>
-                  <ListItemContent style={{fontSize: '25px', fontFamily: 'Anton'}}>
                     <i className="fa fa-envelope" aria-hidden="true"/> <br />
                     sbdef@prodigy.net
                   </ListItemContent>
                 </ListItem>
-
-                <ListItem>
-                  <ListItemContent style={{fontSize: '25px', fontFamily: 'Anton'}}>
-                    <i className="fab fa-linkedin-in" style={{color: 'black'}} aria-hidden="true"/> <br />
-                    Sofie Freiman
-
-                  </ListItemContent>
-                </ListItem>
-
               </List>
             </div>
           </Cell>
