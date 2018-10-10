@@ -30,3 +30,51 @@ margin-right: auto;
   color: black;
   margin-bottom: 20px;
 }
+@media screen and (max-width: 481px){
+
+
+  .mother-grid{
+    color: #5A4F4F;
+    border: 1em;
+    font-size: 20px;
+    background: #bdc3c7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #2c3e50, #bdc3c7);
+
+  }
+  .mother-grid Link{
+    margin-left: 25%;
+  }
+  .home{
+    width: 100%;
+  }
+  button{
+  margin-right: auto;
+  }
+
+  #sofie{
+    width: 100%;
+  }
+
+  .contact-grid{
+    text-align: center;
+    justify-content: center;
+    width: inherit;
+    height: 50px;
+    color: black;
+    margin-bottom: 20px;
+  }
+
+  .portrait-img img{
+    width: 100%;
+  }
+
+  .nature-img img{
+    width: 100%;
+  }
+
+  .Buttons{
+    align-items: center;
+  }
+
+}

@@ -44,8 +44,8 @@ toggleCategories(){
     return(
         <div className='category-tabs'>
           <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({activeTab: tabId})} ripple >
-            <Tab><button style={{marginRight: '2em', marginLeft: '3em', marginTop: '1em'}} type="button" class="btn btn-info">Portrait</button></Tab>
-            <Tab><button style={{marginRight: '2em', marginTop: '1em'}} type="button" class="btn btn-info">Nature</button></Tab>
+            <Tab><button className='Buttons' style={{marginRight: '2em', marginLeft: '3em', marginTop: '1em'}} type="button" class="btn btn-info">Portrait</button></Tab>
+            <Tab><button className='Buttons' style={{marginRight: '2em', marginTop: '1em'}} type="button" class="btn btn-info">Nature</button></Tab>
           </Tabs>
 
             <Grid className='projects-grid'>
